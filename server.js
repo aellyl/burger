@@ -4,7 +4,7 @@ var bp=require("body-parser");
 var ephb=require("express-handlebars");
 
 var app=express();
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 app.use(bp.urlencoded({extended:false}));
