@@ -4,6 +4,7 @@ var bp=require("body-parser");
 var ephb=require("express-handlebars");
 
 var app=express();
+//for heroku deployment
 var port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
