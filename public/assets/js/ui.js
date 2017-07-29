@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     if ($("#displayBurger ul").children().length <=0)
         {
-            $("#displayBurger").text("You don't have any burger to eat");
+            $("#displayBurger").html("<div class='well' style=\"font-size:2em\">You don't have any burger to eat. Start adding more burgers!</div>");
         }
 
 
