@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     if ($("#displayBurger ul").children().length <=0)
         {
-            $("#displayBurger .panel-body").text("You don't have any burger to eat");
+            $("#displayBurger").text("You don't have any burger to eat");
         }
 
 
